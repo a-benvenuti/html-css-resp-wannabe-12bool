@@ -1,6 +1,11 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
 .container{
-  background-color: #ececec;
+  /* background-color: #ececec; */
   margin-bottom: 40px;
+  background: rgb(92,92,92);
+  background: linear-gradient(90deg, rgba(92,92,92,1) 0%, rgba(167,167,167,1) 35%, rgba(226,226,226,1) 100%); 
 }
 .container .title, .container .box{
   text-align: center;
@@ -8,6 +13,9 @@
 .container .title{
   font-size: 28px;
   margin-bottom: 50px;
+}
+.box{
+  padding: 10px;
 }
 .box img{
   max-height: 200px;
