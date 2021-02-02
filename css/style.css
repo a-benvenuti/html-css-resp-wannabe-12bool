@@ -1,0 +1,17 @@
+.container{
+  background-color: lightgrey;
+}
+.container .title{
+  text-align: center;
+  font-size: 28px
+}
+/* Regole di debug / bordo */
+.border [class*='col-']{
+  height: 150px;
+  border: 1px solid black;
+}
+.border [class*='offset']{
+  height: 150px;
+  border: 1px solid black;
+}
+/* /Regole di debug / bordo */
