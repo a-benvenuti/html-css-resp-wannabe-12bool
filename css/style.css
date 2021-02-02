@@ -1,28 +1,28 @@
 .container{
-  background-color: lightgrey;
-  padding: 20px 0;
+  background-color: #ececec;
   margin-bottom: 40px;
 }
 .container .title, .container .box{
   text-align: center;
 }
 .container .title{
-  font-size: 28px
+  font-size: 28px;
+  margin-bottom: 50px;
 }
 .box img{
   max-height: 200px;
 }
-.radious{
-  background-color: blue;
+.box h3{
+  font-size: 21px;
+}
+.box p{
+  font-size: 17px;
+}
+/* relativi agli elementi del container BLOCCO3 */
+.blocco3 .radious{
+  background-color: #2f62b9;
   border-radius: 50%;
 }
-/* Regole di debug / bordo */
-.border [class*='col-']{
-  height: 150px;
-  border: 1px solid black;
+.blocco3 .box{
+  margin-bottom: 30px;
 }
-.border [class*='offset']{
-  height: 150px;
-  border: 1px solid black;
-}
-/* /Regole di debug / bordo */
