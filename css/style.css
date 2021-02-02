@@ -1,9 +1,20 @@
 .container{
   background-color: lightgrey;
+  padding: 20px 0;
+  margin-bottom: 40px;
+}
+.container .title, .container .box{
+  text-align: center;
 }
 .container .title{
-  text-align: center;
   font-size: 28px
+}
+.box img{
+  max-height: 200px;
+}
+.radious{
+  background-color: blue;
+  border-radius: 50%;
 }
 /* Regole di debug / bordo */
 .border [class*='col-']{
