@@ -3,6 +3,7 @@ body{
   background: rgb(107,107,107);
   background: radial-gradient(circle, rgba(107,107,107,1) 0%, rgba(126,126,126,1) 35%, rgba(144,144,144,1) 73%);
 }
+/* style */
 .container{
   background-color: rgb(221, 221, 221);
   border-radius: 20px;
@@ -19,8 +20,11 @@ body{
 .box{
   padding: 15px;
 }
-.box img{
+#lezione .box img{
   max-height: 200px;
+}
+#how .box img, #why .box img{
+  height: 150px;
 }
 .box h3{
   font-size: 21px;
@@ -28,6 +32,7 @@ body{
 .box p{
   font-size: 17px;
 }
+/* /style */
 /* relativi agli elementi del container BLOCCO3 */
 .blocco3 .radious{
   background-color: #2f62b9;
@@ -36,3 +41,14 @@ body{
 .blocco3 .box{
   margin-bottom: 30px;
 }
+/* /relativi agli elementi del container BLOCCO3 */
+/* Responsive-style */
+@media screen and (max-width: 767px){
+  #lezione .box img{
+    max-height: 100px;
+  }
+  #how .box img, #why .box img{
+    height: 75px;
+  }
+}
+/* /Responsive-style */
